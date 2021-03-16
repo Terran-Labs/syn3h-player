@@ -1,0 +1,3 @@
+[submodule "Assets/syn3h-player-proprietary"]
+	path = Assets/syn3h-player-proprietary
+	url = git@github.com:terran-labs/syn3h-player-proprietary.git
