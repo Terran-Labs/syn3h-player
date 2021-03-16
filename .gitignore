@@ -1,5 +1,5 @@
-# VS Code
-.history/*
+# Syn3h
+/_[Bb]uild/*
 
 # OS auto-generated files
 .DS_Store
@@ -9,10 +9,9 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
 /[Ll]ogs/
-/[Bb]uilds/
 /[Uu]nityGenerated/
+/[Uu]serSettings/
 /[Ll]ocal[Cc]ache/
 
 # Auto-generated Visual Studio or MonoDevelop solution and project files
