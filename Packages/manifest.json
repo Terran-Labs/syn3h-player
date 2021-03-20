@@ -51,12 +51,15 @@
     "com.unity.ugui": "1.0.0",
     "com.yasirkula.ingamedebugconsole": "1.4.2",
     "com.yasirkula.simpleinput": "1.1.6",
-    "com.unityfx.outline": "0.8.3"
+    "com.unityfx.outline": "0.8.3",
+    "com.needle.demystify": "1.2.0-exp.4"
   },
   "scopedRegistries": [
     {
       "name": "package.openupm.com",
       "scopes": [
+        "com.needle.demystify",
+        "com.needle.editorpatching",
         "com.openupm",
         "com.tayx.graphy",
         "com.unityfx.outline",
