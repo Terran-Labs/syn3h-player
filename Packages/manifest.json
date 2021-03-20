@@ -48,7 +48,8 @@
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
     "com.tayx.graphy": "2.0.1",
-    "com.yasirkula.ingamedebugconsole": "1.4.2"
+    "com.yasirkula.ingamedebugconsole": "1.4.2",
+    "com.yasirkula.simpleinput": "1.1.6"
   },
   "scopedRegistries": [
     {
@@ -57,7 +58,8 @@
       "scopes": [
         "com.openupm",
         "com.tayx.graphy",
-        "com.yasirkula.ingamedebugconsole"
+        "com.yasirkula.ingamedebugconsole",
+        "com.yasirkula.simpleinput"
       ]
     }
   ]
