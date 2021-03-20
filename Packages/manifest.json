@@ -50,7 +50,8 @@
     "com.unity.timeline": "1.5.2",
     "com.unity.ugui": "1.0.0",
     "com.yasirkula.ingamedebugconsole": "1.4.2",
-    "com.yasirkula.simpleinput": "1.1.6"
+    "com.yasirkula.simpleinput": "1.1.6",
+    "com.unityfx.outline": "0.8.3"
   },
   "scopedRegistries": [
     {
@@ -58,6 +59,7 @@
       "scopes": [
         "com.openupm",
         "com.tayx.graphy",
+        "com.unityfx.outline",
         "com.yasirkula.ingamedebugconsole",
         "com.yasirkula.simpleinput"
       ],
