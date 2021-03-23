@@ -1,5 +1,37 @@
 {
   "dependencies": {
+    "com.kink3d.motion": {
+      "version": "https://github.com/Kink3d/kMotion.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "7.x.x"
+      },
+      "hash": "b5a00348ce18f3382af5861e6dca9011ae956404"
+    },
+    "com.needle.demystify": {
+      "version": "1.2.0-exp.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.needle.editorpatching": "1.0.1"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.needle.editorpatching": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.tayx.graphy": {
+      "version": "2.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -62,15 +94,6 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ide.rider": {
-      "version": "3.0.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.1"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
@@ -197,6 +220,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unityfx.outline": {
+      "version": "0.8.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.verasl.water-system": {
       "version": "file:com.verasl.water-system",
       "depth": 0,
@@ -206,6 +236,20 @@
         "com.unity.burst": "1.0.0",
         "com.unity.render-pipelines.universal": "7.1.0"
       }
+    },
+    "com.yasirkula.ingamedebugconsole": {
+      "version": "1.4.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.yasirkula.simpleinput": {
+      "version": "1.1.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "net.peeweek.gameplay-ingredients": {
       "version": "file:net.peeweek.gameplay-ingredients@604801ada543d20bc302f6310305fe29016d23d2",
