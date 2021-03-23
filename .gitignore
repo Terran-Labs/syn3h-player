@@ -42,3 +42,25 @@ sysinfo.txt
 *.apk
 *.exe
 *.unitypackage
+
+# Proprietery assets excluded from this repo by ./_Shell/SymlinkProprietaryAssets.sh
+# You are responsible to license/install/configure each of the following assets
+# on your local machine if you want to work with them in this
+# otherwise-open-source codebase:
+/[Aa]ssets/Digger
+/[Aa]ssets/Digger.meta
+/[Aa]ssets/Enviro - Sky and Weather
+/[Aa]ssets/Enviro - Sky and Weather.meta
+/[Aa]ssets/GoogleService-Info.plist
+/[Aa]ssets/MapMagic
+/[Aa]ssets/MapMagic.meta
+/[Aa]ssets/MicroSplat
+/[Aa]ssets/MicroSplat.meta
+/[Aa]ssets/NWH
+/[Aa]ssets/NWH.meta
+/[Aa]ssets/README.md
+/[Aa]ssets/Visual Design Cafe
+/[Aa]ssets/Visual Design Cafe.meta
+/[Aa]ssets/Wrld
+/[Aa]ssets/Wrld.meta
+/[Aa]ssets/google-services.json
