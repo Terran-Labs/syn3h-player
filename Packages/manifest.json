@@ -52,12 +52,14 @@
     "com.yasirkula.ingamedebugconsole": "1.4.2",
     "com.yasirkula.simpleinput": "1.1.6",
     "com.unityfx.outline": "0.8.3",
-    "com.needle.demystify": "1.2.0-exp.4"
+    "com.needle.demystify": "1.2.0-exp.4",
+    "com.dbrizov.naughtyattributes": "2.0.8"
   },
   "scopedRegistries": [
     {
       "name": "package.openupm.com",
       "scopes": [
+        "com.dbrizov.naughtyattributes",
         "com.needle.demystify",
         "com.needle.editorpatching",
         "com.openupm",

@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.dbrizov.naughtyattributes": {
+      "version": "2.0.8",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.kink3d.motion": {
       "version": "https://github.com/Kink3d/kMotion.git",
       "depth": 0,
@@ -250,14 +257,6 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
-    },
-    "net.peeweek.gameplay-ingredients": {
-      "version": "file:net.peeweek.gameplay-ingredients@604801ada543d20bc302f6310305fe29016d23d2",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.cinemachine": "2.3.4"
-      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
