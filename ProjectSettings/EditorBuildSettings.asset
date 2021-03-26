@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Syn3h Demo/Syn3h Demo Scene.unity
+    path: Assets/_Syn3h/_Syn3h Core.unity
     guid: 560e2d2a5ccec439aa579eff27f971f5
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: abb1a732776e04a91bc9dc37c394e3d3,
