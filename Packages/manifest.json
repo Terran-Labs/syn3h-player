@@ -1,9 +1,11 @@
 {
   "dependencies": {
+    "com.dbrizov.naughtyattributes": "2.0.8",
     "com.kink3d.motion": "https://github.com/Kink3d/kMotion.git",
+    "com.needle.demystify": "1.2.0-exp.4",
     "com.tayx.graphy": "2.0.1",
     "com.unity.2d.sprite": "1.0.0",
-    "com.unity.adaptiveperformance": "2.1.0",
+    "com.unity.adaptiveperformance": "2.1.1",
     "com.unity.addressables": "1.16.16",
     "com.unity.burst": "1.4.5",
     "com.unity.cinemachine": "2.7.2",
@@ -12,6 +14,15 @@
     "com.unity.ide.vscode": "1.2.3",
     "com.unity.inputsystem": "1.0.2",
     "com.unity.mathematics": "1.2.1",
+    "com.unity.recorder": "2.5.4",
+    "com.unity.render-pipelines.universal": "11.0.0",
+    "com.unity.test-framework": "1.1.22",
+    "com.unity.textmeshpro": "3.0.4",
+    "com.unity.timeline": "1.5.2",
+    "com.unity.ugui": "1.0.0",
+    "com.unityfx.outline": "0.8.3",
+    "com.yasirkula.ingamedebugconsole": "1.4.2",
+    "com.yasirkula.simpleinput": "1.1.6",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -42,18 +53,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.unity.recorder": "2.5.4",
-    "com.unity.render-pipelines.universal": "10.3.1",
-    "com.unity.test-framework": "1.1.22",
-    "com.unity.textmeshpro": "3.0.4",
-    "com.unity.timeline": "1.5.2",
-    "com.unity.ugui": "1.0.0",
-    "com.yasirkula.ingamedebugconsole": "1.4.2",
-    "com.yasirkula.simpleinput": "1.1.6",
-    "com.unityfx.outline": "0.8.3",
-    "com.needle.demystify": "1.2.0-exp.4",
-    "com.dbrizov.naughtyattributes": "2.0.8"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {
