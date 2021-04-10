@@ -50,7 +50,13 @@
     "Obj/": false,
     "ProjectSettings/": false,
     "temp/": false,
-    "Temp/": false
+    "Temp/": false,
+    "**.git": true,
+    "**.githooks": true,
+    "**.history": true,
+    "**.vscode": true,
+    "**.DS_Store": true,
+    "**.gitmodules": true
   },
   "workbench.colorCustomizations": {
     "statusBar.background": "#913b3b"
