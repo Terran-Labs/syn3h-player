@@ -613,6 +613,7 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchUseGOLDLinker: 0
+  switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
   switchTitleNames_0: 
@@ -630,6 +631,7 @@ PlayerSettings:
   switchTitleNames_12: 
   switchTitleNames_13: 
   switchTitleNames_14: 
+  switchTitleNames_15: 
   switchPublisherNames_0: 
   switchPublisherNames_1: 
   switchPublisherNames_2: 
@@ -645,6 +647,7 @@ PlayerSettings:
   switchPublisherNames_12: 
   switchPublisherNames_13: 
   switchPublisherNames_14: 
+  switchPublisherNames_15: 
   switchIcons_0: {fileID: 0}
   switchIcons_1: {fileID: 0}
   switchIcons_2: {fileID: 0}
@@ -660,6 +663,7 @@ PlayerSettings:
   switchIcons_12: {fileID: 0}
   switchIcons_13: {fileID: 0}
   switchIcons_14: {fileID: 0}
+  switchIcons_15: {fileID: 0}
   switchSmallIcons_0: {fileID: 0}
   switchSmallIcons_1: {fileID: 0}
   switchSmallIcons_2: {fileID: 0}
@@ -675,6 +679,7 @@ PlayerSettings:
   switchSmallIcons_12: {fileID: 0}
   switchSmallIcons_13: {fileID: 0}
   switchSmallIcons_14: {fileID: 0}
+  switchSmallIcons_15: {fileID: 0}
   switchManualHTML: 
   switchAccessibleURLs: 
   switchLegalInformation: 
@@ -845,7 +850,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: USING_URP;__DIGGER__;__MICROSPLAT__;__MICROSPLAT_ALPHAHOLE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_SNOW__;__MICROSPLAT_STREAMS__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_WINDGLITTER__;__MICROSPLAT_DECAL__;__MICROSPLAT_TRAX__;MAPMAGIC2;MM_NATIVE;ENVIRO_LW;ENVIRO_HD
+    1: USING_URP;__DIGGER__;__MICROSPLAT__;__MICROSPLAT_ALPHAHOLE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_SNOW__;__MICROSPLAT_STREAMS__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_WINDGLITTER__;__MICROSPLAT_DECAL__;__MICROSPLAT_TRAX__;MAPMAGIC2;MM_NATIVE;ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
     4: MAPMAGIC2;MM_NATIVE;ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;DWP_BURST;__DIGGER__;__MICROSPLAT__;__MICROSPLAT_ALPHAHOLE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_SNOW__;__MICROSPLAT_STREAMS__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_WINDGLITTER__
     7: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
     13: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
@@ -863,8 +868,8 @@ PlayerSettings:
     29: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
     30: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
     31: ENVIRO_LW;ENVIRO_HD
-    32: ENVIRO_LW;ENVIRO_HD
-    33: ENVIRO_LW;ENVIRO_HD
+    32: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
+    33: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -879,7 +884,6 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  useReferenceAssemblies: 1
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
