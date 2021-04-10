@@ -45,15 +45,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.adaptiveperformance": {
-      "version": "2.1.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.subsystemregistration": "1.1.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.addressables": {
       "version": "1.16.16",
       "depth": 0,
@@ -143,7 +134,7 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "file:com.unity.render-pipelines.universal@11.0.0",
+      "version": "file:com.unity.render-pipelines.universal",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
@@ -174,15 +165,6 @@
         "com.unity.render-pipelines.core": "11.0.0",
         "com.unity.searcher": "4.3.1"
       }
-    },
-    "com.unity.subsystemregistration": {
-      "version": "1.1.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.1.24",
