@@ -5,7 +5,10 @@
       "type": "shell",
       "label": "Symlink Proprietary Assets",
       "command": "${workspaceFolder}/_Shell/SymlinkProprietaryAssets.sh",
-      "args": []
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/_Shell"
+      }
     }
   ]
 }
