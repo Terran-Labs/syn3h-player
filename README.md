@@ -1,11 +1,7 @@
 # Syn3h
 ###### A reality simulator masquerading as a multiplayer action game.
 
-####Repo Setup:
-  * Install [Git LFS](https://git-lfs.github.com) on your machine
-  * `git config core.hooksPath .githooks`
-  * `git lfs install`
+(This repository has been archived. As of 2021-04-11, Unity's URP is not stabile enough to invest further Syn3h dev cycles at the present time. Ongoing Syn3h dev will continue in https://github.com/terran-labs/syn3h-player-core)
 
-#### Build the project:
-One thing to make sure you do before building is make sure to build the addressable assets, this can be done via the addressables window, for more information please checkout the addressables [package documentation](https://docs.unity3d.com/Packages/com.unity.addressables@latest).
-Once the addressable assets are built you can continue to build a player as usual.
+#srplife
+https://forum.unity.com/threads/join-us-for-srplife-week.915275/
