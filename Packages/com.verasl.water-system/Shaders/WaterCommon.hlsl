@@ -9,6 +9,13 @@
 #include "GerstnerWaves.hlsl"
 #include "WaterLighting.hlsl"
 
+// Syn3h Customization :: Enviro Atmospheric Fog Effects
+// Note: Unfortunately, Unity's shader preprocessor does not expose scripting define symbols to hlsl code.
+// You will need to manually comment the following line if you are seeing shader compilation errors because you don't have Enviro installed.
+// #ifdef ENVIRO_HD
+#include "Assets/Enviro - Sky and Weather/Core/Resources/Shaders/Core/EnviroFogCore.hlsl"
+// #endif
+
 ///////////////////////////////////////////////////////////////////////////////
 //                  				Structs		                             //
 ///////////////////////////////////////////////////////////////////////////////
@@ -277,6 +284,15 @@ half4 WaterFragment(WaterVertexOutput IN) : SV_Target
 	// Fog
     float fogFactor = IN.fogFactorNoise.x;
     comp = MixFog(comp, fogFactor);
+
+	// Syn3h Customization :: Enviro Atmospheric Fog Effects
+	// Note: Unfortunately, Unity's shader preprocessor does not expose scripting define symbols to hlsl code.
+	// You will need to manually comment the following line if you are seeing shader compilation errors because you don't have Enviro installed.
+	// #ifdef ENVIRO_HD
+	// comp = TransparentFog(float4(comp, 0), IN.posWS.xyz, float2(0,0), 0).rgb;
+	comp = TransparentFog(real4(comp, 0), IN.posWS.xyz, screenUV.xy, depth).rgb;
+	// #endif
+
 #if defined(_DEBUG_FOAM)
     return half4(foamMask.xxx, 1);
 #elif defined(_DEBUG_SSS)

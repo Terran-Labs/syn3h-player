@@ -11,6 +11,11 @@
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/SurfaceData.hlsl"
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Shadows.hlsl"
 
+// Syn3h Customization :: Enviro Atmospheric Fog Effects
+// Note: The following line is unnecessary in the code Syn3h codebase, as we're using a
+// customized com.unity.render-pipelines.core which already includes our Enviro fog include.
+// #include "Assets/Enviro - Sky and Weather/Core/Resources/Shaders/Core/EnviroFogCore.hlsl"
+
 // If lightmap is not defined than we evaluate GI (ambient + probes) from SH
 // We might do it fully or partially in vertex to save shader ALU
 #if !defined(LIGHTMAP_ON)
@@ -863,6 +868,17 @@ half4 UniversalFragmentPBR(InputData inputData, SurfaceData surfaceData)
 #endif
 
     color += surfaceData.emission;
+
+// Syn3h Customization :: Enviro Atmospheric Fog Effects
+// Note: Unfortunately, Unity's shader preprocessor does not expose scripting define symbols to hlsl code.
+// You will need to manually comment the following line if you are seeing shader compilation errors because you don't have Enviro installed.
+// #ifdef ENVIRO_HD
+    #ifdef _SURFACE_TYPE_TRANSPARENT
+        color = TransparentFog(float4(color, 0), inputData.positionWS.xyz, float2(0,0), 0).rgb;
+    #endif
+// #endif
+
+    // return float4(1,1,1,1);
 
     return half4(color, surfaceData.alpha);
 }

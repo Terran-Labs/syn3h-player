@@ -81,13 +81,13 @@ PlayerSettings:
   hideHomeButton: 1
   submitAnalytics: 1
   usePlayerLog: 1
-  bakeCollisionMeshes: 0
+  bakeCollisionMeshes: 1
   forceSingleInstance: 1
   useFlipModelSwapchain: 1
   resizableWindow: 1
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
-  gpuSkinning: 0
+  gpuSkinning: 1
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -131,18 +131,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: bb0f8a088725c4f4ab0264a3e791323b, type: 2}
+  - {fileID: 11400000, guid: da5d03fd77333493b9b9d22f90c457ef, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -173,7 +163,7 @@ PlayerSettings:
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
-  stripEngineCode: 0
+  stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
   ForceInternetPermission: 0
@@ -182,7 +172,7 @@ PlayerSettings:
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
   StripUnusedMeshComponents: 1
-  VertexChannelCompressionMask: -1
+  VertexChannelCompressionMask: 2147483647
   iPhoneSdkVersion: 988
   iOSTargetOSVersionString: 11.0
   tvOSSdkVersion: 0
@@ -517,9 +507,12 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_StaticBatching: 1
     m_DynamicBatching: 0
+  - m_BuildTarget: WebGL
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
   m_BuildTargetGraphicsJobs:
   - m_BuildTarget: MacStandaloneSupport
-    m_GraphicsJobs: 0
+    m_GraphicsJobs: 1
   - m_BuildTarget: Switch
     m_GraphicsJobs: 1
   - m_BuildTarget: MetroSupport
@@ -543,7 +536,7 @@ PlayerSettings:
   - m_BuildTarget: AndroidPlayer
     m_GraphicsJobs: 0
   - m_BuildTarget: WebGLSupport
-    m_GraphicsJobs: 0
+    m_GraphicsJobs: 1
   m_BuildTargetGraphicsJobMode:
   - m_BuildTarget: PS4Player
     m_GraphicsJobMode: 0
@@ -590,7 +583,9 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_EncodingQuality: 1
   - m_BuildTarget: Standalone
-    m_EncodingQuality: 1
+    m_EncodingQuality: 0
+  - m_BuildTarget: WebGL
+    m_EncodingQuality: 0
   m_BuildTargetGroupLightmapSettings:
   - m_BuildTarget: Standalone
     m_TextureStreamingEnabled: 0
@@ -837,39 +832,39 @@ PlayerSettings:
   webGLMemorySize: 256
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
-  webGLDataCaching: 0
+  webGLDataCaching: 1
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: APPLICATION:Minimal
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: USING_URP;__DIGGER__;__MICROSPLAT__;__MICROSPLAT_ALPHAHOLE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_SNOW__;__MICROSPLAT_STREAMS__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_WINDGLITTER__;__MICROSPLAT_DECAL__;__MICROSPLAT_TRAX__;MAPMAGIC2;MM_NATIVE;ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
+    1: USING_URP;__DIGGER__;__MICROSPLAT__;__MICROSPLAT_ALPHAHOLE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_SNOW__;__MICROSPLAT_STREAMS__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_WINDGLITTER__;__MICROSPLAT_DECAL__;__MICROSPLAT_TRAX__;MAPMAGIC2;MM_NATIVE;ENVIRO_HD;ENVIRO_LW;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
     4: MAPMAGIC2;MM_NATIVE;ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;DWP_BURST;__DIGGER__;__MICROSPLAT__;__MICROSPLAT_ALPHAHOLE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_SNOW__;__MICROSPLAT_STREAMS__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_WINDGLITTER__
-    7: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
-    13: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
-    14: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
+    7: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
+    13: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT;__MICROSPLAT__;__DIGGER__;MAPMAGIC2;MM_NATIVE;USING_URP;__MICROSPLAT_ALPHAHOLE__;__MICROSPLAT_DETAILRESAMPLE__;__MICROSPLAT_GLOBALTEXTURE__;__MICROSPLAT_SNOW__;__MICROSPLAT_STREAMS__;__MICROSPLAT_TERRAINBLEND__;__MICROSPLAT_TESSELLATION__;__MICROSPLAT_TEXTURECLUSTERS__;__MICROSPLAT_TRIPLANAR__;__MICROSPLAT_WINDGLITTER__
+    14: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
     17: 
     18: 
-    19: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
-    21: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
+    19: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
+    21: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
     23: 
     24: 
-    25: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
+    25: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
     26: 
-    27: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
-    28: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
-    29: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
-    30: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
+    27: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
+    28: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
+    29: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
+    30: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
     31: ENVIRO_LW;ENVIRO_HD
-    32: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
-    33: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP
+    32: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
+    33: ENVIRO_LW;ENVIRO_HD;ENVIRO_LWRP;ENVIRO_MICROSPLAT_SUPPORT
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -879,6 +874,7 @@ PlayerSettings:
   il2cppCompilerConfiguration: {}
   managedStrippingLevel:
     Standalone: 3
+    WebGL: 2
     iPhone: 2
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
